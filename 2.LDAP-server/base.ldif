@@ -1,0 +1,7 @@
+dn: ou=usuarios,dc=vergara,dc=brion
+objectClass: organizationalUnit
+ou:usuarios
+
+dn: ou=grupos,dc=vergara,dc=brion
+objectClass: organizationalUnit
+ou:grupos
