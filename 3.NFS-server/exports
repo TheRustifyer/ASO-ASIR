@@ -14,7 +14,7 @@
 # permisos y carácterísticas para mejorar el flujo de trabajo en el 
 # entorno de pruebas local. No recomendable hacer en un servidor de producción
 # o de entorno laboral.
-/MARCOS 192.122.222.0/24(rw,async,no_subtree_check)
+/home/alex/MARCOS 192.122.222.0/24(rw,async,no_subtree_check)
 
 # Comparto la carpeta '/home/alex/VERGARA' en modo síncrono, 
 # al cliente de mi MV en modo lectura. De nuevo, no_subtree_check.
