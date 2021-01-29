@@ -1,0 +1,10 @@
+//zona directa para el dominio vergara.brion
+zone "vergara.brion" {
+	type master;
+	file "/etc/bind/db.vergara.brion";
+};
+//zona inversa para la red 192.122.222.0
+zone "222.122.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.222.122.192";
+};

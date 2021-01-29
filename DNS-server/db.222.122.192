@@ -1,0 +1,17 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	servidor.vergara.brion. root.vergara.brion. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+			IN	NS	servidor.vergara.brion.
+2			IN	PTR	servidor.vergara.brion.
+51			IN	PTR	cliente1.vergara.brion.
+1			IN	PTR	router.vergara.brion.
+52			IN	PTR	cliente2.vergara.brion.
+

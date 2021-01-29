@@ -1,0 +1,21 @@
+# This file describes the network interfaces available on your system
+#and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto enp0s3
+iface enp0s3 inet dhcp
+
+auto enp0s8
+iface enp0s8 inet static
+	address 192.122.222.2
+	network 192.122.222.0
+	netmask 255.255.255.0
+	gateway 192.122.222.1
+	dns-nameservers 192.122.222.2
+	dns-search vergara.brion
