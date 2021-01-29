@@ -1,0 +1,26 @@
+# /etc/exports: the access control list for filesystems which may be exported
+#		to NFS clients.  See exports(5).
+#
+# Example for NFSv2 and NFSv3:
+# /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+#
+# Example for NFSv4:
+# /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
+# /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
+#
+
+# Comparto la carpeta '/home/alex/MARCOS' en modo asíncrono, a todos los 
+# equipos de la red en modo lectura-escritura, diciéndole que no verifique 
+# permisos y carácterísticas para mejorar el flujo de trabajo en el 
+# entorno de pruebas local. No recomendable hacer en un servidor de producción
+# o de entorno laboral.
+/MARCOS 192.122.222.0/24(rw,async,no_subtree_check)
+
+# Comparto la carpeta '/home/alex/VERGARA' en modo síncrono, 
+# al cliente de mi MV en modo lectura. De nuevo, no_subtree_check.
+/home/alex/VERGARA 192.122.222.52(ro,sync, no_subtree_check)
+
+# Comparto la carpeta '/home/alex/ALEJANDRO' en modo asíncrono, a todos los 
+# equipos de la red en modo lectura-escritura. De nuevo, no_subtree_check.
+# Las peticiones de root se asignan a root en el servidor
+/home/alex/ALEJANDRO 192.122.222.1/255(rw,sync, no_subtree_check, no_root_squash)
