@@ -1,1 +1,1 @@
-# Prácticas para ASO, FP Superior de ASIR
+# Prácticas para ASO, FP Superior de Administración de Sistemas Informáticos en Red
