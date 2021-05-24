@@ -12,4 +12,4 @@ en el FP Superior de Administración de Sistemas Informáticos en Red (ASIR).
 ### 3. [Creador de servidor de archivos NFS](https://github.com/Pyzyryab/ASO-ASIR/tree/main/3.NFS-server)
 
 
-### 7. [Prácticas y ejercicios de Shell Scripting](https://github.com/Pyzyryab/ASO-ASIR/tree/main/3.NFS-server)
+### 7. [Prácticas y ejercicios de Shell Scripting](https://github.com/Pyzyryab/ASO-ASIR/tree/main/7.Shell-scripting)
