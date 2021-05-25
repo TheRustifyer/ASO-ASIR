@@ -13,3 +13,12 @@ Crea un script que reciba una ruta de un directorio y haga una copia y compresio
 ### Ejercicio 3. Enunciado:
 Ejemplo de while con If:Crea un script, que reciba una serie de parámetros por línea de comandos, los muestre y te diga si son ficheros o directorios.
 NOTA: Deberás utilizar el comando shift para desplazar los argumentos.
+
+### Ejercicio 4. Enunciado:
+(Ejemplo de for) Crea un script que te pregunte el nombre de un fichero. Si existe, para cada entrada del directorio personal, te dirá si es mas reciente que el fichero que has escrito.
+
+### Ejercicio 5. Enunciado:
+Vuelca por pantalla los nombres de usuarios y sus respectivos grupos (GID's).
+
+### Ejercicio 6. Enunciado:
+Escribe un script que adivine la edad (Ejemplo de case)
