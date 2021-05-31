@@ -3,6 +3,8 @@
 Ejercicios de la unidad didáctica 7, correspondiente a "Shell Scripting".
 
 ## Introducción
+Ejemplo: 
+Crea un pequeño script que muestre los parámetros que ha recibido, cuantos parámetros son, el nombre del shell script y el PID del proceso 
 
 ### Ejercicio 1. Enunciado:
 Crea un script que te pregunte el nombre de un fichero. Si existe, te mostrará información en formato largo. Si no existe o no es un fichero te devolverá un mensaje de error. 
@@ -22,3 +24,22 @@ Vuelca por pantalla los nombres de usuarios y sus respectivos grupos (GID's).
 
 ### Ejercicio 6. Enunciado:
 Escribe un script que adivine la edad (Ejemplo de case)
+
+### Ejercicio 7. Enunciado:
+Combina los apartados 1 y 2 en un solo script
+
+1. Realiza un script que muestre por pantalla «usuario conectado» si el parámetro que le pasamos es un usuario que esta conectado y que saque por pantalla «usuario no conectado» en caso contrario
+2. Realiza un script que muestre por pantalla «usuario del sistema» si el parámetro que le pasamos es un usuario que esta en el equipo y que saque por pantalla «el usuario no es del sistema» en caso contrarioAyuda: «grep –w» -> es para coincidencia exacta y «grep ^ texto» hace una busquedade «texto» al inicio 
+
+### Ejercicio 8. Enunciado:
+Realiza un script que cuente el numero de procesos de un usuario dado como argumento que se están ejecutando actualmente
+
+### Ejercicio 9. Enunciado:
+Realiza un script al cuál se le pasará un nombre de fichero como parámetro y después, si existe y se puede escribir en él, lo editará con gedit. Hay que pasarle el archivo como parámetro.
+
+### Ejercicio 10. Enunciado:
+Realiza un script que pedirá que escribas el nombre de un fichero.Después si el fichero tiene activos los permisos de lectura, mostrará su contenido de forma paginada por pantalla.
+
+### Ejercicio 11. Enunciado:
+#### Ejercicio para renombrar ficheros
+Realiza un script que pedirá que escribas el nombre de un fichero, se comprueba que ese fichero existe, y si existe, te pedirá que introduzcas el nombre nuevo que le quieres poner, si ese nombre nuevo no existe como fichero, se cambia el nombre del fichero. Después se mostrará por pantalla un mensaje de texto donde diga que al fichero $fich1 se le ha puesto $fich2
