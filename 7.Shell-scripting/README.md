@@ -38,14 +38,14 @@ Realiza un script que cuente el numero de procesos de un usuario dado como argum
 Realiza un script al cuál se le pasará un nombre de fichero como parámetro y después, si existe y se puede escribir en él, lo editará con gedit. Hay que pasarle el archivo como parámetro.
 
 ### Ejercicio 10. Enunciado:
-Realiza un script que pedirá que escribas el nombre de un fichero.Después si el fichero tiene activos los permisos de lectura, mostrará su contenido de forma paginada por pantalla.
+Realiza un script que pedirá que escribas el nombre de un fichero. Después si el fichero tiene activos los permisos de lectura, mostrará su contenido de forma paginada por pantalla.
 
 ### Ejercicio 11. Enunciado:
 #### Ejercicio para renombrar ficheros
 Realiza un script que pedirá que escribas el nombre de un fichero, se comprueba que ese fichero existe, y si existe, te pedirá que introduzcas el nombre nuevo que le quieres poner, si ese nombre nuevo no existe como fichero, se cambia el nombre del fichero. Después se mostrará por pantalla un mensaje de texto donde diga que al fichero $fich1 se le ha puesto $fich2
 
 ### Ejercicio 12. Enunciado:
-Realiza un script llamado infousuario.sh, el cual te debe pedir el nombre de un usuario, a continuación se deberá comprobar que el usuario existe en el sistema, después te mostrará información sobre su uid y los grupos a los que pertenece dicho usuario.
+Realiza un script el cual te debe pedir el nombre de un usuario, a continuación se deberá comprobar que el usuario existe en el sistema, después te mostrará información sobre su uid y los grupos a los que pertenece dicho usuario.
 
 ### Ejercicio 13. Enunciado:
 Realiza un script que te pida que escribas el nombre de un servicio, y a continuación mostrarte el estado de ese servicio. Si el servicio no existe, te deberá mostrar un mensaje de error diciendo que el servicio no existe.

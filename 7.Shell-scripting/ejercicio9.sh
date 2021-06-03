@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -f $1 ]; then
+if [ ! -f $1 ]; then
     echo "Has de introducir el nombre de un fichero"
 else
-    update db
+    # updatedb --> Recordar actualizar la db del comando locate para que pueda encontrar los archivos necesarios
     c=`locate $1`
     if [ -z "$c" ]; then
         if [ -w $1 ]; then

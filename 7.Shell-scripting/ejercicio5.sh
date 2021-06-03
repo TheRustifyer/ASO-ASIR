@@ -2,8 +2,7 @@
 
 echo -e "\nNombres de usuarios y sus respectivos grupos (GID's):"
 
-for user in $(cat /etc/passwd)
+for user_and_group in $(cat /etc/passwd | cut -d ':' -f1,3)
 do
-    echo -e "\nUsuario ->" "$user" | cut -d ':' -f1
-    echo -e "GID ->" "$user" | cut -d ':' -f3
+    echo $user_and_group
 done
