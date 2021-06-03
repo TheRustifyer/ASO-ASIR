@@ -43,3 +43,12 @@ Realiza un script que pedirá que escribas el nombre de un fichero.Después si e
 ### Ejercicio 11. Enunciado:
 #### Ejercicio para renombrar ficheros
 Realiza un script que pedirá que escribas el nombre de un fichero, se comprueba que ese fichero existe, y si existe, te pedirá que introduzcas el nombre nuevo que le quieres poner, si ese nombre nuevo no existe como fichero, se cambia el nombre del fichero. Después se mostrará por pantalla un mensaje de texto donde diga que al fichero $fich1 se le ha puesto $fich2
+
+### Ejercicio 12. Enunciado:
+Realiza un script llamado infousuario.sh, el cual te debe pedir el nombre de un usuario, a continuación se deberá comprobar que el usuario existe en el sistema, después te mostrará información sobre su uid y los grupos a los que pertenece dicho usuario.
+
+### Ejercicio 13. Enunciado:
+Realiza un script que te pida que escribas el nombre de un servicio, y a continuación mostrarte el estado de ese servicio. Si el servicio no existe, te deberá mostrar un mensaje de error diciendo que el servicio no existe.
+
+### Ejercicio 14. Enunciado:
+Realizar un script llamado 'suma' que realice la suma de 2 parámetros introducidos y compruebe que los dos parametros que introducimos son numeros distintos de cero.
